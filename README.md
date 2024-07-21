@@ -1,8 +1,9 @@
 # E-Gymkhana IIT Patna
 
-Welcome to the official GitHub repository of the E-Gymkhana, Indian Institute of Technology Patna (IIT Patna). This repository serves as a central hub for all the activities, events, and documentation related to Gymkhana IIT Patna.
+Welcome to the  GitHub repository of the E-Gymkhana, Indian Institute of Technology Patna (IIT Patna). This repository serves as a central hub for all the activities, events, and documentation related to Gymkhana IIT Patna.
 
 ## Table of Contents
+
 
 - [Introduction](#introduction)
 - [Mission](#mission)

@@ -4,14 +4,19 @@ import React, { useState } from 'react';
 const ClubCard = ({ club }) => {
   const [flipped, setFlipped] = useState(false);
 
-  const handleFlip = () => {
-    setFlipped(!flipped);
+  const handleMouseEnter = () => {
+    setFlipped(true);
+  };
+
+  const handleMouseLeave = () => {
+    setFlipped(false);
   };
 
   return (
     <div
       className="club-card-container"
-      onClick={handleFlip}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <div className={`club-card ${flipped ? 'flipped' : ''}`}>
         <div className="club-card-front">

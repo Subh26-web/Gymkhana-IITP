@@ -6,7 +6,9 @@ import About from './Components/About/About';
 import Clubs from './Components/Clubs/Clubs';
 import Community from './Components/Community/Community';
 import Events from './Components/Events/Events';
-import Register from './Components/Register/Register'; // Import Register component
+import Video from './Components/video/VideoSection';
+import Register from './Components/Register/Register';
+import Gallery from './Components/Gallery/Gallery'; // Import Gallery component
 
 const App = () => {
   return (
@@ -18,7 +20,9 @@ const App = () => {
         <Route path="/clubs" element={<Clubs />} />
         <Route path="/community" element={<Community />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/video" element={<Video />} />
         <Route path="/register" element={<Register />} /> 
+        <Route path="/gallery" element={<Gallery />} /> {/* Add Gallery route */}
       </Routes>
     </Router>
   );

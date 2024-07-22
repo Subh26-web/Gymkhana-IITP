@@ -7,6 +7,7 @@ import Title from '../Title/Title';
 import About from '../About/About';
 import Events from '../Events/Events';
 import Clubs from '../Clubs/Clubs';
+import Video from '../video/VideoSection';
 import Footer from '../Footer/Footer';
 
 const Home = () => {
@@ -28,6 +29,10 @@ const Home = () => {
         <section id="events">
           <Title subTitle="Events" title="Campus Photos" />
           <Events />
+        </section>
+        <section id="video">
+          <Title title="Campus Video" />
+          <Video/>
         </section>
         <Footer />
       </div>
